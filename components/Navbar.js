@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import s from "../styles/Navbar.module.css"
 
 const items = [
@@ -22,7 +23,7 @@ const Navbar = () => {
   return (
     <div className={s.nav}>
       <div className={s.logo}>
-        <img scr="/images/skype.svg" width={60} height={60} alt={"logo"} />
+        <Image src="/apple.png" width={60} height={60} alt={"logo"} />
       </div>
       <div className={s.links}>
         {items.map(({ id, title, path }) => (

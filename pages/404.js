@@ -13,7 +13,7 @@ const Error = () => {
     }, 1000)
   }, [router])
 
-  return <Heading text={">No such page!!!"} />
+  return <Heading text={">No such page!!!"} title={"Error page"} />
 }
 
 export default Error

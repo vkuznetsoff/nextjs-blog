@@ -1,5 +1,13 @@
+import Head from "next/head"
 const Posts = ({ posts }) => {
-  return <p>All posts:</p>
+  return (
+    <>
+      <Head>
+        <title>Contacts</title>
+      </Head>
+      <p>All posts:</p>
+    </>
+  )
 }
 
 export default Posts
