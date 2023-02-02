@@ -1,0 +1,10 @@
+.nav {
+}
+
+.logo {
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
